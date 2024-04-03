@@ -111,7 +111,7 @@
 
 
         <!-- ========== HEADER ========== -->
-        <header class="fixed">
+        <header class="fixed transparent">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".mobile_menu" aria-expanded="false">
@@ -119,45 +119,47 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img style="height: 65px;
-                        margin-top: -18px" src="new-image/Untitled-1.png" height="32" alt="Logo">
+                    <a class="navbar-brand light" href="index.html">
+                        <img style=" height: 80px;
+                        margin-top: -48px;" src="new-image/Untitled-1.png" height="32" alt="Logo">
+                    </a>
+                    <a class="navbar-brand dark nodisplay" href="index.html">
+                        <img style="height: 49px;    margin-top: -13px !important;" src="new-image/Untitled-1.png" height="32" alt="Logo">
                     </a>
                 </div>
                 <nav id="main_menu" class="mobile_menu navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="mobile_menu_title" style="display:none;">MENU</li>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">HOME</a></li>
 
-                        <li><a href="best-stay-in-pahalgam.html">Rooms</a>
-                        <!-- <ul>
-                                <li><a href="about.html">About Page</a></li>
-                                <li><a href="team.html">Our Team</a></li>
-                                <li><a href="team-carousel.html">Team Carousel</a></li>
-                                <li><a href="team-details.html">Team Details</a></li>
-                            </ul> -->
-                        </li>
+                        <li class="dropdown"><a href="best-stay-in-pahalgam.html" class="dropdown-toggle">Rooms</a>
+                            
+                                <div class="dropdown-content">
+                                  <a href="rooms-with-forest-view.html" class="dropdown-content">Delux Forest view </a>
+                                </div>
+                                <div class="dropdown-content">
+                                    <a href="rooms-with-mountain-view.html" class="dropdown-content">Delux Mountain view </a>
+                                  </div>
+                              </li>
+                        
+
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="things-to-do-in-pahalgam.html">Attractions</a></li>
                         <li><a href="contact.html">CONTACT US</a></li>
                         <li><a href="FAQ.html">FAQ</a></li>
+                        <!-- <li><a href="blog.html">BLOG</a></li> -->
                         <li class="menu_button">
-                            <a style="background-color: #1dc1f8;" href="contact.html" class="button  btn_yellow"><i class="fa fa-calendar"></i>BOOK ONLINE</a>
+                            <a style="background-color:#1dc1f8 ;" href="contact.html" class="button  btn_yellow  flicker"><i class="fa fa-calendar"></i>BOOK ONLINE</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-
         <!-- =========== PAGE TITLE ========== -->
         <div class="page_title gradient_overlay" style="background: url(new-image/page_title_bg.jpg) ; background: #1dc1f8  ;">
             <div class="container">
                 <div class="inner">
-                    <center><h1>Experience the beauty of Pahalgam from our forest and mountain view rooms</h1></center>
-                    <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li style="color: white;">Rooms List View</li>
-                    </ol>
+                  
                 </div>
             </div>
         </div>
@@ -165,6 +167,15 @@
         <!-- =========== MAIN ========== -->
         <main id="rooms_list">
             <div class="container">
+                <div class="row">
+                    <h1 class="effect" style="font-size: 30px;">Experience the beauty of Pahalgam from our forest and mountain view rooms</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <!-- <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li> -->
+                          <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Rooms</li>
+                        </ol>
+                      </nav>
 
                 <!-- ITEM -->
                 <article class="room_list" data-aos="flip-left">
@@ -434,8 +445,8 @@
                             <ul class="useful_links">
                                 <li><a href="index.html" style="color: #606060;">Home</a></li>
 
-                                <li><a href="attractions.html" style="color: #606060;">    Attractions</a></li>
-                                <li><a href="rooms-list.html" style="color: #606060;">Rooms</a></li>
+                                <li><a href="things-to-do-in-pahalgam.html" style="color: #606060;">    Attractions</a></li>
+                                <li><a href="best-stay-in-pahalgam.html" style="color: #606060;">Rooms</a></li>
                                 <li><a href="gallery.html" style="color: #606060;">Gallery</a></li>
                                 <li><a href="contact.html" style="color: #606060;">Contact us</a></li>
                                 <li><a href="FAQ.html" style="color: #606060;">FAQ</a></li>
