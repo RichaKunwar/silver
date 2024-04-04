@@ -282,7 +282,7 @@ p {
     font-size: 1em;
     line-height: 1.6;
     margin: 20px 0;
-    color: #858a99;
+    color: #1d1d1f;
 
 }
 
@@ -3618,6 +3618,10 @@ footer.dark .subfooter .social_media a {
 /* ========== 8 PAGES ========== */
 
 /* ---------- 8.1 Page Title ---------- */
+.para{
+    font-weight: 650;
+    color: #000;
+}
 .page_title {
     position: relative;
     padding: 70px 0;
@@ -4820,7 +4824,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .room_list .room_details .room_desc p {
-    color: #858a99;
+    color: #111213;
     padding-top: 10px;
 }
 
