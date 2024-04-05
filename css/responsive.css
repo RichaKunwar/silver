@@ -82,7 +82,7 @@
  /* Large Devices, Wide Screens */
  @media only screen and (min-width: 1200px) {
      .container {
-         width: 1200px;
+         width: 1224px;
      }
       #blog .blog_item .main {
          padding: 0;

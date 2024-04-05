@@ -1695,13 +1695,15 @@ pre code {
   width: 66.66666667%;
 }
 .col-xs-7 {
-  width: 58.33333333%;
+  width: 55.333333%;
+  padding-right: 40px;
 }
 .col-xs-6 {
   width: 50%;
 }
 .col-xs-5 {
   width: 41.66666667%;
+  padding: 40px;
 }
 .col-xs-4 {
   width: 33.33333333%;
