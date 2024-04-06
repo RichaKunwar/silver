@@ -962,7 +962,7 @@
             var title = "Hotel Zante - Click to see";
             var hotel_name = "Hotel Zante";
             var hotel_address = "25, Navagio Zakynthos, Greece";
-            var hotel_desc = "5 star deluxee Hotel";
+            var hotel_desc = "5 star deluxe Hotel";
             var hotel_more_desc = "Lorem ipsum dolor sit amet, consectetur.";
 
             var hotel_location = new google.maps.LatLng(var_latitude, var_longitude);
